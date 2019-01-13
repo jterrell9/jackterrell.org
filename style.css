@@ -1,0 +1,134 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    background-color: #6496a9;
+    font-family: monospace;
+    display: block;
+}
+a{
+    color: inherit;
+}
+a:visited{
+    color: inherit;
+}
+h1{
+    font-size: 30px;
+    text-align: center;
+    font-weight: lighter;
+    font-family: "American Typewriter", monospace;
+}
+p{
+    font-size: 14px;
+    text-align: justify;
+}
+.section{
+    /*position: absolute;*/
+    margin-top: 20px;
+    width: 100%;
+}
+.container{
+    position: relative;
+    left: 50%;
+    width: 600px;
+    margin-left: -300px;
+    overflow: hidden;
+}
+/*img#bubble{*/
+    /*width: 300px;*/
+    /*float: right;*/
+    /*clear: top;*/
+/*}*/
+#about-section{
+    /*top: 100px;*/
+    /*height: 350px;*/
+    background-color: #303234;
+}
+#about-container{
+    font-family: inherit;
+    color: #ffffff;
+}
+img#headshot{
+    width: 100px;
+    border: 1px solid #FFFFFF;
+    border-radius: 5px;
+    margin-right: 20px;
+    float: left;
+}
+#project-container{
+    color: white;
+}
+#resume-section{
+    /*top: 490px;*/
+    background-color: antiquewhite;
+}
+#resume-container{
+    width: 800px;
+    margin-left: -400px;
+    padding-bottom: 50px;
+}
+table.resume{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    width: 100%;
+    font-size: 12px;
+    border-spacing: 0px;
+}
+td.titleCell{
+    border-bottom: 1px solid black;
+    font-size: 14px;
+    font-weight: bolder;
+}
+table.resume h2{
+    font-size: 12px;
+    margin: 0px;
+    font-weight: bolder;
+}
+table.resume p{
+    margin: 0px;
+    font-size: 12px;
+}
+table.resume ul{
+    margin: 0px;
+    padding-inline-start: 15px;
+}
+#contact-section{
+    /*top: 1310px;*/
+    background-color: cadetblue;
+}
+#contact-container{
+    width: 400px;
+    margin-left: -200px;
+    font-family: "American Typewriter", monospace;
+    font-size: 18px;
+    color: white;
+}
+#contactForm label{
+    display: block;
+    color: #ffffff;
+}
+#contactForm input[type="text"], textarea{
+    margin-top: 5px;
+    font-family: "American Typewriter", monospace;
+    border: 2px solid #856b73;
+    border-radius: 10px;
+    font-size: 14px;
+    padding: 5px;
+    resize: none;
+}
+#contactForm input[type=submit]{
+    font-family: "American Typewriter", monospace;
+    font-size: 18px;
+    border: 2px solid #856b73;
+    border-radius: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    margin-right: 30px;
+    padding: 3px 15px;
+}
+#contactForm input:focus, textarea:focus {
+    outline: none;
+}
+#copyright-container{
+    font-size: 14px;
+}

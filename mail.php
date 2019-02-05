@@ -1,6 +1,6 @@
 <?php
 
-$message = new \stdClass();
+$message = new stdClass();
 $message->sender = htmlspecialchars($_POST['email']);
 $message->subject = htmlspecialchars($_POST['subject']);
 $message->body = htmlspecialchars($_POST['body']);
